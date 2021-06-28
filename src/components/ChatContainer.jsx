@@ -31,7 +31,6 @@ export const ChatContainer = (props) => {
 
   const scrollToTheBottom = () => {
     if (messageContainer.current) {
-      console.log("Tu?");
       messageContainer.scrollTop = messageContainer.scrollHeight;
     }
   };
