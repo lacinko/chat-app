@@ -58,7 +58,7 @@ function App(props) {
       <Route path="/login" component={LoginContainer} />
       <Route
         exact
-        path="/chat-app"
+        path="/"
         render={() => (
           <ChatContainer
             messagesLoaded={messagesLoaded}

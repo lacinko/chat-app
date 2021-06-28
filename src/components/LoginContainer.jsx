@@ -26,7 +26,7 @@ export const LoginContainer = (props) => {
   };
 
   const onLogin = () => {
-    props.history.push("/chat-app");
+    props.history.push("/");
   };
 
   const login = () => {
